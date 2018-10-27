@@ -1,0 +1,15 @@
+.header {
+    display: inline;
+    position: fixed;
+}
+
+.header__button {
+    height: 29px;
+    width: 36px;
+    background-image: url(../../img/menu-hamburger.svg);
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 26px;
+    left: 27px;
+}

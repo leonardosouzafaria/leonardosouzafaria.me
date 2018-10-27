@@ -1,0 +1,7 @@
+.first-section {
+    background-image: url(../../img/city-background.png);
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: -270px 0;
+}
