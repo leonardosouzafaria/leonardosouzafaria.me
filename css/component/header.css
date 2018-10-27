@@ -4,9 +4,10 @@
 }
 
 .header__button {
-    height: 29px;
+    height: 27px;
     width: 36px;
     background-image: url(../../img/menu-hamburger.svg);
+    background-repeat: no-repeat;
     background-color: transparent;
     border: none;
     position: absolute;

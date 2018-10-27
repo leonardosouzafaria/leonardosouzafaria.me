@@ -1,32 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 29">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 27">
   <defs>
     <style>
       .cls-1 {
         fill: #fff;
-        stroke: #707070;
-      }
-
-      .cls-2 {
-        stroke: none;
-      }
-
-      .cls-3 {
-        fill: none;
       }
     </style>
   </defs>
   <g id="Menu-hamburger" transform="translate(-27 -26)">
-    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-1" transform="translate(27 26)">
-      <rect class="cls-2" width="36" height="5"/>
-      <rect class="cls-3" x="0.5" y="0.5" width="35" height="4"/>
-    </g>
-    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-1" transform="translate(27 38)">
-      <rect class="cls-2" width="36" height="5"/>
-      <rect class="cls-3" x="0.5" y="0.5" width="35" height="4"/>
-    </g>
-    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-1" transform="translate(27 50)">
-      <rect class="cls-2" width="36" height="5"/>
-      <rect class="cls-3" x="0.5" y="0.5" width="35" height="4"/>
-    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="36" height="3" transform="translate(27 26)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="36" height="3" transform="translate(27 38)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="36" height="3" transform="translate(27 50)"/>
   </g>
 </svg>
