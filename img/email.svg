@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.964 66.964">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2f75ec;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Oval);
+      }
+    </style>
+    <filter id="Oval" x="0" y="0" width="66.964" height="66.964" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="E-mail" transform="translate(9 6)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -9, -6)">
+      <circle id="Oval-2" data-name="Oval" class="cls-1" cx="24.482" cy="24.482" r="24.482" transform="translate(9 6)"/>
+    </g>
+    <path id="Mail" class="cls-2" d="M2.974,13.543A3.116,3.116,0,0,1,1.228,13l.608-.66L7.5,6.2,9.631,7.658l.1.035h.034a.423.423,0,0,0,.053,0,.408.408,0,0,0,.053,0,.359.359,0,0,0,.105,0h.034l.071-.035L12.233,6.2l5.632,6.13.594.647a3.274,3.274,0,0,1-1.839.567H3.1ZM.625,12.379h0A3.649,3.649,0,0,1,0,10.284L0,3.247A3.77,3.77,0,0,1,.46,1.413l.712.487L6.745,5.7,1.224,11.728l-.6.65Zm18.464,0h0l-.6-.659L12.968,5.687,18.535,1.9l.717-.483A3.6,3.6,0,0,1,19.7,3.26v7.024a3.449,3.449,0,0,1-.607,2.09ZM9.812,6.728h0L7.7,5.288a.427.427,0,0,0-.152-.1l-5.8-3.942L.992.73A3.012,3.012,0,0,1,2.947,0c.059,0,.11,0,.154,0H16.657A3.226,3.226,0,0,1,18.683.73l-.768.523-8.1,5.474Z" transform="translate(14.633 17.711)"/>
+  </g>
+</svg>

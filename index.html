@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,24 @@
     <title>Leonardo de Souza Faria</title>
 
     <link href="https://fonts.googleapis.com/css?family=Mali:300,400" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/settings/color.css">
-    
+
     <link rel="stylesheet" href="css/generic/normalise.css">
 
     <link rel="stylesheet" href="css/base/base.css">
-    
+
     <link rel="stylesheet" href="css/objects/first-section.css">
-    
+
     <link rel="stylesheet" href="css/component/menu.css">
     <link rel="stylesheet" href="css/component/header.css">
     <link rel="stylesheet" href="css/component/photo-logo.css">
     <link rel="stylesheet" href="css/component/container-text.css">
+    <link rel="stylesheet" href="css/component/list-social-media.css">
 
 
 </head>
+
 <body>
     <header class="header">
         <button type="button" class="header__button"></button>
@@ -33,18 +36,54 @@
 
     <main>
         <section class="first-section">
+            <!-- Logo foto -->
             <div class="photo-logo">
                 <img src="img/logo-photo.jpeg" alt="Logo foto do Leonardo de Souza Faria" title="Logo foto" class="photo-logo__photo">
             </div>
-            
+
+            <!-- Texto da primeira Sessão -->
             <div class="container-text">
                 <h1 class="container-text__title container-text__title_white">Leonardo de Souza Faria</h1>
+
+                <p class="container-text__paragraph container-text__paragraph_white container-text__paragraph_center container-text__paragraph_capitalize">Web
+                    developer</p>
+                <p class="container-text__paragraph container-text__paragraph_white container-text__paragraph_center">São
+                    Paulo, Brasil</p>
+                <p class="container-text__paragraph container-text__paragraph_center container-text__paragraph_white">leonardofaria.dev@gmail.com</p>
             </div>
 
+            <!-- Lista de Rede Sociais -->
+            <ul class="list-social-media">
+                <!-- twitter -->
+                <li class="list-social-media__item">
+                    <a href="#">
+                        <img src="img/twitter.svg" alt="Twitter do Leonardo" title="Icone do Twiter" class="list-social-media__item-img">
+                    </a>
+                </li>
+                <!-- LinkedIn -->
+                <li class="list-social-media__item">
+                    <a href="#">
+                        <img src="img/linkedin.svg" alt="LinkedIn do Leonardo" title="Icone do LinkedIn" class="list-social-media__item-img">
+                    </a>
+                </li>
+                <!-- E-mail -->
+                <li class="list-social-media__item">
+                    <a href="mailto:leonardofaria.dev@gmail.com?Subject=Contato via site" target="top" >
+                        <img src="img/email.svg" alt="E-mail do Leonardo" title="Icone do E-mail" class="list-social-media__item-img">
+                    </a>
+                </li>
+               <!-- Githuv -->
+               <li class="list-social-media__item">
+                    <a href="#">
+                        <img src="img/github.svg" alt="Github do Leonardo" title="Icone do Github" class="list-social-media__item-img list-social-media__item-img_github ">
+                    </a>
+                </li>
+            </ul>
 
 
         </section>
     </main>
-    
+
 </body>
+
 </html>
