@@ -4,7 +4,7 @@
     border-radius: 50%;
     border: solid 1px #707070;
     background-color: #ffffff;
-    top: 16.725vh;
+    margin: 16.725vh 0 0 0;
     left: calc(50% - 28.265%);
     position: relative;
 }

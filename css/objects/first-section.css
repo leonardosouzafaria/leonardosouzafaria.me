@@ -4,7 +4,13 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: -270px 0;
+
+}
+
+.first-section__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 }
+
