@@ -1,7 +1,7 @@
 .menu-list {
     list-style: none;
     padding-left: 27px;
-    margin:  0; 
+    margin-top:  43.4px; 
 }
 
 .menu-list__item-link {
@@ -9,4 +9,8 @@
     color: var(--color-zero);
     font-weight: 300;
     font-size: 1em;
+}
+
+.menu-list__item {
+    margin-bottom: 25px;
 }
