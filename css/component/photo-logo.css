@@ -10,13 +10,13 @@
 }
 
 .photo-logo__photo {
-    height: calc(100% - 10px);
-    width: calc(100% - 10px);
+    height: calc(100% - 5.533%);
+    width: calc(100% - 5.533%);
     object-fit: cover;
     object-position: 50% 12%;
     border-radius: 50%;
     position: relative;
-    top: 5px;
-    left: 5px;
+    top: 2.766%;
+    left: 2.766%;
 }
 

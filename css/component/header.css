@@ -1,6 +1,13 @@
 .header {
     display: inline;
     position: fixed;
+    z-index: 1;
+}
+
+.header_expand {
+    background-color: rgba(32, 32, 32, 0.86);
+    height: 100%;
+    width: 70.506%;
 }
 
 .header__button {
@@ -10,7 +17,7 @@
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
-    position: relative;
-    top: 26px;
-    left: 27px;
+    /* position: relative; */
+    margin-top: 26px;
+    margin-left: 27px;
 }
